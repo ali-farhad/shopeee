@@ -60,14 +60,15 @@ const ImageContainer = styled.div`
 `
 
 const Image = styled.img`
-    display: block;
-    height: 80%;
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;    
 
 `
 
 const InfoContainer = styled.div`
     flex: 1;
-    padding: 3rem;
+    padding: 1.5rem;
 `
 
 const Title = styled.h1`
